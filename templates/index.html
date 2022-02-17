@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="/static/css.css" rel="stylesheet">
+   
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File uploader</title>
+  </head>
+  <body>
+  <div class="container", align="center" >
+  <div class="jumbotron">
+
+  <p> !!!!Please submit your file !!!!!</p>
+
+<h4> SELECT YOUR FILE:</h4> <form
+      action="http://localhost:5000/upload"
+      method="POST"
+      enctype="multipart/form-data">
+    <input type="file" name="file" />
+      <input type="submit" />
+    </form>
+  </div>
+  </div>
+
+  </body>
+</html>

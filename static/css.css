@@ -1,0 +1,17 @@
+body{
+background: url(https://images.unsplash.com/photo-1502957291543-d85480254bf8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+background-repeat:no-repeat;
+background-size:cover;
+}
+.container  .jumbotron{
+margin-top: px;
+background: green;
+colour: blue;
+}
+.container  .jumbotron p{
+background: yellow;
+colour: blue;
+}
+input[type='file'] {
+   color: white;
+}
