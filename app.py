@@ -13,7 +13,7 @@ app = Flask(__name__)
 ##x=pd.DataFrame()
 @app.route('/')
 def upload_file():
-   return render_template('d:index.html')
+   return render_template('index.html')
 @app.route('/upload', methods = ['GET', 'POST'])
 def uploadfile():
    if request.method == 'POST':
